@@ -23,6 +23,9 @@ public class myClass {
 public void myTest() {
 	
 	System.out.println(driver.getTitle());
+	
+	
+	driver.navigate().refresh();
 }
 
 
